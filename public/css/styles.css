@@ -289,21 +289,21 @@ input#usernamelogin {
     margin: 15px;
     height: 25px;
     width: 350px;
+    
 }
 
 input#passwordlogin {
     margin: 15px;
     height: 25px;
     width: 350px;
-
 }
 
 button.loginbutton {
     border: none;
     position: relative;
-    left: 7%;
+    left: 4%;
     top: 15px;
-    width: 331px;
+    width: 350px;
     height: 29px;
     background-color: #0044AA;
     border-radius: 5px;
@@ -321,7 +321,55 @@ button.loginbutton {
 form.formregister {
     display: grid;
     box-sizing: border-box;
+    margin-top: 50px;
+    gap: 40px;
+    padding-left: 20vh;
 }
+
+.reg-input-box{
+    height: 30px;
+    width: 70%;
+}
+
+
+.userprofile, .interests {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+
+.subtitles {
+    font-weight: 600;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+button.resetbutton {
+    border: none;
+    position: relative;
+    left: 7%;
+    top: 20px;
+    width: 331px;
+    height: 29px;
+    background-color: rgb(128, 128, 128);
+    border-radius: 5px;
+    color: #ebebeb;
+}
+
+button.resetbutton {
+    transition-property: background-color;
+    transition-duration: 0.5s;
+
+}
+
+.resetbutton:hover { 
+    background-color: rgb(111, 109, 109);   
+}
+
 @media (min-width: 361px) {
     main section article .description {
         display: block;
