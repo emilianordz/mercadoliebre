@@ -285,26 +285,31 @@ position: relative;
     top: 35px;
 }
 
-input#usernamelogin {
-    margin: 15px;
-    height: 25px;
-    width: 350px;
-    
+.login-formcontainer{
+    display: inline-grid;
+    position: relative;
+    left: 27%;
+    top: 35px;
+    justify-items: center;
 }
-
-input#passwordlogin {
+input#usernamelogin, input#passwordlogin {
     margin: 15px;
-    height: 25px;
-    width: 350px;
+    border: none;
+    position: relative;
+    left: 3%;
+    top: 15px;
+    height: 40px;
+    width: 472px;
+    border-radius: 5px;
 }
 
 button.loginbutton {
     border: none;
     position: relative;
-    left: 4%;
+    left: 3%;
     top: 15px;
-    width: 350px;
-    height: 29px;
+    width: 472px;
+    height: 50px;
     background-color: #0044AA;
     border-radius: 5px;
     color: #ebebeb;
@@ -322,13 +327,13 @@ form.formregister {
     display: grid;
     box-sizing: border-box;
     margin-top: 50px;
-    gap: 40px;
-    padding-left: 20vh;
+    gap: 20px;
+    justify-content: center;
 }
 
 .reg-input-box{
     height: 30px;
-    width: 70%;
+    width: 85%;
 }
 
 
@@ -344,17 +349,15 @@ form.formregister {
 .subtitles {
     font-weight: 600;
     width: 100%;
-    padding-top: 10px;
-    padding-bottom: 5px;
 }
 
 button.resetbutton {
     border: none;
     position: relative;
-    left: 4%;
+    left: 3%;
     top: 15px;
-    width: 350px;
-    height: 29px;
+    width: 472px;
+    height: 50px;
     background-color: rgb(128, 128, 128);
     border-radius: 5px;
     color: #ebebeb;
