@@ -351,9 +351,9 @@ form.formregister {
 button.resetbutton {
     border: none;
     position: relative;
-    left: 7%;
-    top: 20px;
-    width: 331px;
+    left: 4%;
+    top: 15px;
+    width: 350px;
     height: 29px;
     background-color: rgb(128, 128, 128);
     border-radius: 5px;
